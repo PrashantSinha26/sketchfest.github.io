@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.top{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Hurricane', cursive;
+}
+
+img 
+{
+    border: 1px solid #ddd;
+    display: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ydiv{
+    border: 3px outset red;
+    background-color: lightpink;
+    text-align: center;
+}
+
+.vdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;   
+}
+
+.zdiv{
+  display: flex;
+    justify-content: space-between;
+    padding: 1px;  
+}
+
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px ;
+    cursor: pointer;
+}
+
+.adiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px; 
+}
+
+.bdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px; 
+}
+.button1{
+    background-color: skyblue;
+    color: black;
+    border: 4px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button2{
+    background-color: skyblue;
+    color: black;
+    border: 4px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button3{
+    background-color: skyblue;
+    color: black;
+    border: 4px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button4{
+    background-color: skyblue;
+    color: black;
+    border: 4px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button5{
+    background-color: skyblue;
+    color: black;
+    border: 4px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button6{
+    background-color: skyblue;
+    color: black;
+    border: 4px solid gray ;
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+h6{ 
+    font-style: initial;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+p{
+    font-style: italic;
+    style-color: black;
+}

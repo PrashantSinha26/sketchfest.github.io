@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animal Sketch</title>
+	<link rel="stylesheet" type="text/css" href="b2.css">
+</head>
+<body  style="background-color: lightpink;">
+<p style="color: black;"><h1 class="text-white top"><u>Funs Facts about animals</u>-</h1></p>
+		<ul>
+		 <li>A dog sense of smell is 1000 times greater than a human.</li>
+		 <li>Dog have 28 baby teeth and 42 permanent teeth.</li>
+		 <li>Wolf pups are born deaf and blind with bright blue eyes.</li>
+		 <li>Wolf can hear up to 6 miles away in the forest.</li>
+		 <li>Ostrictes have the largest eyes of any land animal.</li>
+		 <li>Ravens are great at mimicking human speech and sounds.</li>
+	   </ul>
+	<div style="text-align: center;">
+		<p>Click on the sketch below</p>
+	</div>
+	<div class="row">
+		<div class="column">
+			<img class="img20" src="./res/img20.jpg" onclick="myfunction(this);">
+		</div>
+	
+		<div class="column">
+			<img class="img21" src="./res/img21.jpg" onclick="myfunction(this);">
+		</div>
+
+		<div class="column">
+			<img class="img22" src="./res/img22.jpg" onclick="myfunction(this);">
+		</div>
+		<div class="column">
+			<img class="img23" src="./res/img23.jpg" onclick="myfunction(this);">
+		</div>
+
+		<div class="column">
+			<img class="img24" src="./res/img24.jpg" onclick="myfunction(this);">
+		</div>
+
+	</div>
+
+	<div class="container">
+		<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;
+		</span>
+		<img id="expandedImg" style="width:100%">
+		<div id="imgtext"></div>
+	</div>
+
+	<script>
+		function myfunction(imgs){
+			var expandImg= document.getElementById("expandImg");
+			var imgText= document.getElementById("imgtext");
+			expandImg.src= imgs.src;
+			expandImg.parentElement.style.display="block";
+		}
+	</script>
+</body>
+</html>

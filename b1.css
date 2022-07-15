@@ -1,0 +1,33 @@
+div{
+	background-color:turquoise;
+	width: 1350px;
+	border: 10px ;
+	padding: 70px;
+	margin: 10px;
+	font-size: 1.5rem;
+}
+h1{
+	font-style: italic;
+	background-color: red;
+	margin: 15px;
+	text-align: center;
+}
+img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  height: 450px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.img1{
+  float: right;
+  height: 300px;
+}
+h2{
+	color: red;
+}

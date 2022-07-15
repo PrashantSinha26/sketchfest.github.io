@@ -1,0 +1,43 @@
+h1{
+	font-size: 30px;
+	font-family: cursive;
+	text-align: center;
+	color: darkblue;
+}
+
+div.a{
+	outline-style: solid;
+	outline-color: red;
+	text-align: center;
+	font-size: 25px;
+	width: 1520px;
+}
+hr{
+	background-color: black;
+	height: 3px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.column{
+	float: right;
+	float: left;
+	width: 33.60%;
+	padding:20px;
+}
+
+.row: : after{
+			content: "";
+			clear: both;
+			display: table;
+}
+
+p{
+	font-size: 30px;
+	font: bolder;
+	text-align: center;
+
+}
+
